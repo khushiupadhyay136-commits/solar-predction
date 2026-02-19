@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model=joblib.load("solar deployment (1).csv")
+model=joblib.load("model.pkl")
 
 st.title("solar prediction app")
 Day_of_Year=st.number_input("Day of Year",18,60)
