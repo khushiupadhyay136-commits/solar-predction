@@ -20,14 +20,14 @@ Day=st.number_input("Day",["Day"])
 First_Hour_of_Period=st.number_input("First Hour of Period",["First Hour of Period"])
 Is_Daylight=st.number_input("Is Daylight",0,20)
 Distance_to_Solar_Noon=st.number_input("Distance to Solar Noon",0,20)
-Average_Temperature_(Day)=st.number_input("Average Temperature (Day)",0,20)
-Average_Wind_Direction_(Day)=st.number_input("Average Wind Direction (Day)",0,20)
-Average_Wind_Speed_(Day)=st.number_input("Average Wind Speed (Day)",0,20)
+Average_Temperature_Day=st.number_input("Average Temperature (Day)",0,20)
+Average_Wind_Direction_Day=st.number_input("Average Wind Direction (Day)",0,20)
+Average_Wind_Speed_Day=st.number_input("Average Wind Speed (Day)",0,20)
 Sky_Cover=st.number_input("Sky Cover",0,20)
 Visibility=st.number_input("Visibility",0,20)
 Relative_Humidity=st.number_input("Relative Humidity",0,20)
 Relative_Humidity=st.number_input("Relative Humidity ",0,20)
-Average_Barometric_Pressure_(Period)=st.number_input("Average Barometric Pressure (Period)",0,20)
+Average_Barometric_Pressure_Period=st.number_input("Average Barometric Pressure (Period)",0,20)
 Power Generated=st.number_input("Power Generated",0,20)
 
 df=pd.DataFrame({
@@ -37,14 +37,14 @@ df=pd.DataFrame({
     "First Hour of Period":[First Hour of Period]
     "Is Daylight":[Is Daylight],
     "Distance to Solar Noon":[Distance to Solar Noon],
-    "Average Temperature (Day)":[Average Temperature (Day)],
-    "Average Wind Direction (Day)":[Average Wind Direction (Day)],
-    "Average Wind Speed (Day)":[Average Wind Speed (Day)],
+    "Average Temperature (Day)":[Average Temperature Day],
+    "Average Wind Direction (Day)":[Average Wind Direction Day],
+    "Average Wind Speed (Day)":[Average Wind Speed Day],
     "Sky Cover":[Sky Cover],
     "Visibility":[Visibility],
     "Relative Humidity":[Relative Humidity],
     "Relative Humidity":[Relative Humidity],
-    "Average Barometric Pressure (Period)":[Average Barometric Pressure (Period)],
+    "Average Barometric Pressure (Period)":[Average Barometric Pressure Period],
     "Power Generated":[Power Generated]
 
 
