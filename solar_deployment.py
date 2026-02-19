@@ -37,14 +37,14 @@ df=pd.DataFrame({
     "First Hour of Period":[First Hour of Period]
     "Is Daylight":[Is Daylight],
     "Distance to Solar Noon":[Distance to Solar Noon],
-    "Average Temperature (Day)":[Average Temperature Day],
-    "Average Wind Direction (Day)":[Average Wind Direction Day],
-    "Average Wind Speed (Day)":[Average Wind Speed Day],
+    "Average Temperature Day":[Average Temperature Day],
+    "Average Wind Direction Day":[Average Wind Direction Day],
+    "Average Wind Speed Day":[Average Wind Speed Day],
     "Sky Cover":[Sky Cover],
     "Visibility":[Visibility],
     "Relative Humidity":[Relative Humidity],
     "Relative Humidity":[Relative Humidity],
-    "Average Barometric Pressure (Period)":[Average Barometric Pressure Period],
+    "Average Barometric Pressure Period":[Average Barometric Pressure Period],
     "Power Generated":[Power Generated]
 
 
