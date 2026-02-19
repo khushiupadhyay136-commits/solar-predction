@@ -28,7 +28,6 @@ Visibility=st.number_input("Visibility",0,20)
 Relative_Humidity=st.number_input("Relative Humidity",0,20)
 Relative_Humidity=st.number_input("Relative Humidity ",0,20)
 Average_Barometric_Pressure_Period=st.number_input("Average Barometric Pressure (Period)",0,20)
-Power Generated=st.number_input("Power Generated",0,20)
 
 df=pd.DataFrame({
     "Day of Year":[Day of Year],
@@ -45,7 +44,6 @@ df=pd.DataFrame({
     "Relative Humidity":[Relative Humidity],
     "Relative Humidity":[Relative Humidity],
     "Average Barometric Pressure Period":[Average Barometric Pressure Period],
-    "Power Generated":[Power Generated]
 
 
 })
