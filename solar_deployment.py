@@ -30,20 +30,20 @@ Relative_Humidity=st.number_input("Relative Humidity ",0,20)
 Average_Barometric_Pressure_Period=st.number_input("Average Barometric Pressure (Period)",0,20)
 
 df=pd.DataFrame({
-    "Day of Year":[Day of Year],
+    "Day of Year":[Day_of_Year],
     "month":[month],
     "day":[day],
-    "First Hour of Period":[First Hour of Period]
-    "Is Daylight":[Is Daylight],
-    "Distance to Solar Noon":[Distance to Solar Noon],
-    "Average Temperature Day":[Average Temperature Day],
-    "Average Wind Direction Day":[Average Wind Direction Day],
-    "Average Wind Speed Day":[Average Wind Speed Day],
-    "Sky Cover":[Sky Cover],
+    "First Hour of Period":[First_Hour_of_Period]
+    "Is Daylight":[Is_Daylight],
+    "Distance to Solar Noon":[Distance_to_Solar_Noon],
+    "Average Temperature Day":[Average_Temperature_Day],
+    "Average Wind Direction Day":[Average_Wind_Direction_Day],
+    "Average Wind Speed Day":[Average_Wind_Speed_Day],
+    "Sky Cover":[Sky_Cover],
     "Visibility":[Visibility],
-    "Relative Humidity":[Relative Humidity],
-    "Relative Humidity":[Relative Humidity],
-    "Average Barometric Pressure Period":[Average Barometric Pressure Period],
+    "Relative Humidity":[Relative_Humidity],
+    "Relative Humidity":[Relative_Humidity],
+    "Average Barometric Pressure Period":[Average_Barometric_Pressure_Period],
 
 
 })
