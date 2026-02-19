@@ -33,7 +33,7 @@ df=pd.DataFrame({
     "Day of Year":[Day_of_Year],
     "month":[month],
     "day":[day],
-    "First Hour of Period":[First_Hour_of_Period]
+    "First Hour of Period":[First_Hour_of_Period],
     "Is Daylight":[Is_Daylight],
     "Distance to Solar Noon":[Distance_to_Solar_Noon],
     "Average Temperature Day":[Average_Temperature_Day],
